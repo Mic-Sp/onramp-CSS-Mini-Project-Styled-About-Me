@@ -68,10 +68,11 @@ h1 {
 .favorite-things table {
     margin: 20px auto;
     text-align: left;
+    border-collapse: collapse;
 }
 
 .favorite-things th, .favorite-things td {
-    padding: 2px 15px;
+    padding: 5px 15px;
 }
 
 .ai-image, .favorite-things {
@@ -91,7 +92,13 @@ h1 {
     list-style-position: inside;
     text-align: left;
     margin: 0;
-    padding: ;
+    line-height: 1.6;
+    padding-left: 20px;
+
+}
+
+.favorites-specific li {
+    margin-bottom: 5px;
 }
 
 footer {
