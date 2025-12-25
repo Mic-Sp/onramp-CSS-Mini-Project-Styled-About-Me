@@ -1,0 +1,117 @@
+* {
+    font-family: 'Gill Sans', Calibri, sans-serif;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-family: 'Arial', sans-serif;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+    }
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 40px;
+}
+
+main {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 0;
+    margin-top: 50px;
+
+}
+
+h1 {
+    background-color: #4e678a;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #4e678a;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 2px 0;
+    min-height: 66px;
+    box-sizing: border-box;
+}
+
+.favorite-things table {
+    margin: 20px auto;
+    text-align: left;
+}
+
+.favorite-things th, .favorite-things td {
+    padding: 2px 15px;
+}
+
+.ai-image, .favorite-things {
+    flex: 1 1 45%;
+    min-width: 300px;
+    max-width: 700px;
+}
+
+.favorites-specific{
+    flex: 1 1 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.favorites-specific ul {
+    list-style-position: inside;
+    text-align: left;
+    margin: 0;
+    padding: ;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+    flex-shrink: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: lightsteelblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 49%;
+    justify-content: center;
+    text-align: left;
+}
